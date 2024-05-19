@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/MatiasWebDevCoder4517/breakfast_reservations/pkg/config"
+	"github.com/MatiasWebDevCoder4517/breakfast_reservations/pkg/handlers"
+	"github.com/MatiasWebDevCoder4517/breakfast_reservations/pkg/render"
 	"github.com/alexedwards/scs/v2"
-	"github.com/tsawler/bookings-app/pkg/config"
-	"github.com/tsawler/bookings-app/pkg/handlers"
-	"github.com/tsawler/bookings-app/pkg/render"
 	"log"
 	"net/http"
 	"time"

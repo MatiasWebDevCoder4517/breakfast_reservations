@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/go-chi/chi"
+	"github.com/MatiasWebDevCoder4517/breakfast_reservations/pkg/config"
+	"github.com/MatiasWebDevCoder4517/breakfast_reservations/pkg/handlers"
+	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/middleware"
-	"github.com/tsawler/bookings-app/pkg/config"
-	"github.com/tsawler/bookings-app/pkg/handlers"
 	"net/http"
 )
 
