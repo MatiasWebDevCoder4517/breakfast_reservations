@@ -1,0 +1,148 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the Go compiler
+*.o
+*.a
+*.out
+
+# Vendor directory (dep, glide)
+vendor/
+
+# Glide files
+.glide/
+glide.lock
+glide.yaml
+
+# Godep files
+Godeps/
+
+# Dependency directories
+# Uncomment if you have dependencies in these directories
+# vendor/
+# Godeps/
+
+# Test binary, coverage reports
+*.test
+*.cover
+
+# Go workspace file
+go.work
+go.work.sum
+
+# IDE/editor configurations
+.vscode/
+.idea/
+
+# Node modules (if using JavaScript/TypeScript)
+node_modules/
+
+# Logs
+*.log
+
+# Compiled Dynamic Libraries
+*.so
+
+# Directory for IDE-specific project files
+.project
+.settings/
+
+# Directories for specific IDEs or tools
+.DS_Store
+Thumbs.db
+*.tmproj
+*.tmproject
+
+# Visual Studio Code settings
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Goland
+/.idea/
+/*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# MacOS Finder
+.DS_Store
+
+# Linux file system
+.Trash-*
+
+# Windows file system
+Thumbs.db
+ehthumbs.db
+
+# Project-specific files
+.env
+.env.*
+*.local
+
+# Cover tool artifacts
+*.coverprofile
+coverage/
+
+# Cover tool artifacts
+*.coverprofile
+cover.out
+coverage.out
+
+# Build directory
+bin/
+build/
+dist/
+
+# Go module files
+go.sum
+
+# Go build cache
+*.test
+*.exe
+*.out
+*.out
+
+# Development environment
+.env
+.local
+
+# Config files for specific tools
+*.yaml
+*.yml
+*.toml
+*.json
+
+# Common IDE and text editor config files
+/.idea
+*.iml
+*.vscode
+
+# Files created by editors
+*~
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.save
+*.swm
+
+# Temporary files
+/tmp
+*.tmp
+*.temp
+
+# Log files
+*.log
